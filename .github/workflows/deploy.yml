@@ -16,9 +16,6 @@ jobs:
     - name: Install Dependencies
       run: composer install
 
-    - name: Build Assets
-      run: npm install && npm run production
-
     - name: Deploy to Hostinger
       uses: appleboy/ssh-action@master
       with:
