@@ -23,6 +23,5 @@ jobs:
         username: ${{ secrets.HOSTINGER_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd /path/to/your/remote/directory
+          cd domains/topbusiness.io/public_html/back
           git pull
-          php artisan migrate --force
