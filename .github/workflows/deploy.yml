@@ -27,4 +27,4 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /domains/topbusiness.io/public_html/back
+          server-dir: /domains/topbusiness.io/public_html/back/
